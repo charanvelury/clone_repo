@@ -11,4 +11,4 @@ jobs:
           node -v
           npm -v
       - name: running list command
-        run: ls -l
+        run: df -h
