@@ -12,3 +12,9 @@ jobs:
           npm -v
       - name: running list command
         run: df -h
+      - name: python Command 
+        run: |
+          import platform 
+          print
+          (platform.processor())
+        shell: python
